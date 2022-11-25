@@ -23,7 +23,7 @@ basic.forever(function () {
             while (ok == 0) {
                 radio.sendNumber(1)
                 led.plot(radio2, 0)
-                basic.pause(10)
+                basic.pause(100)
             }
             ok = 0
             radio2 += 1
